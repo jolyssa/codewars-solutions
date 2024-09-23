@@ -10,5 +10,5 @@ I would love to see other solutions and to discuss different ways of solving cer
 
 #### Follow me @jolyssa in the "#100Devs - leonnoel.com/twitch" clan!
 
-#### Yours,
-#### *Jolyssa*
+### Yours,
+### *Jolyssa*
