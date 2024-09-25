@@ -3,6 +3,7 @@ Write a function that takes an array of numbers and returns the sum of the numbe
 */
 
 function sum (numbers) {
-    "use strict";
-    return numbers.reduce((sum, num) => sum + num, 0);
-};
+    "use strict"
+    return numbers.reduce((sum, num) => sum + num, 0)
+}
+
