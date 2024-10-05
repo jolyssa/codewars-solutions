@@ -4,5 +4,5 @@ It's pretty straightforward. Your goal is to create a function that removes the 
 
 //simple solution using slice()
 function removeChar(str) {
-    return str.slice(1, -1);
-  }
+    return str.slice(1, -1)
+}
