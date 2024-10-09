@@ -15,4 +15,5 @@ function makeUpperCase(str) {
 ```
 ```js
 //or
+const makeUpperCase = str => str.toUpperCase()
 ```
