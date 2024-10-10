@@ -5,7 +5,7 @@
 
 **Link:** https://www.codewars.com/kata/551b4501ac0447318f0009cd
 
-## Solutions
+## My Solutions
 
 ### 1) Using if ... else
 ```js
