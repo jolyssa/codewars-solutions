@@ -1,7 +1,11 @@
 # 7kyu - 
 
 ## Description
-`// `
+```js
+/*
+
+*/
+```
 
 **Link:** 
 
