@@ -28,3 +28,25 @@ For example(Input --> Output):
    return arr
   }
 ```
+
+```js
+function monkeyCount(n) {
+ //different variations
+  let monkeys = []
+  for(let i = 1; i <= n; i++){
+    monkeys.push(i)
+  }
+  return monkeys
+}
+```
+
+```js
+//one more
+const monkeyCount = n => {
+  let monkeys = []
+  for(i = 1; i <= n; i++){
+    monkeys.push(i)
+  }
+  return monkeys
+}
+```
