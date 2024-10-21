@@ -10,7 +10,7 @@ Note: input will never be an empty string
 
 **Link:** https://www.codewars.com/kata/57eae65a4321032ce000002d/javascript
 
-## My Solutions
+## My Solution
 
 ### Refactoring in Steps
 1. First I started by using methods I didn't need, and had quite a bit of code.
