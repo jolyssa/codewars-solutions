@@ -56,3 +56,10 @@ function twoSort(s){
  return s.sort().find((word, arr) => arr == 0).split('').join('***')
 }
 ```
+
+4. Also, this code can be shortened by using [0] instead of .find()
+```js
+function twoSort(s){
+ return s.sort()[0].split('').join('***')
+}
+```
