@@ -1,6 +1,15 @@
 # codewars-solutions
 
 ## Welcome to my Codewars Solutions!
+<br>
+<br>
+
+<p align="center">
+  <img width="434" alt="" src="https://github.com/user-attachments/assets/d69bf634-7143-4f9c-99d2-3c76963f05c9">
+</p>
+
+<br>
+<br>
 
 The language I am training in is Javascript.
 
