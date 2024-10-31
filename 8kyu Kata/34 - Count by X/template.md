@@ -15,7 +15,7 @@ x = 2, n = 5  --> [2,4,6,8,10]
 */
 ```
 
-**Link:** https://www.codewars.com/kata/57a429e253ba3381850000fb/
+**Link:** https://www.codewars.com/kata/5513795bd3fafb56c200049e
 
 ## My Solution
 
