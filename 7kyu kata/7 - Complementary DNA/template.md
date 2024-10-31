@@ -20,7 +20,9 @@ Example: (input --> output)
 
 **Link:** https://www.codewars.com/kata/554e4a2f232cdd87d9000038/javascript
 
-## My Solution
+## My Solutions
+
+1. With else/else if
 ```js
 function dnaStrand(dna){
   let pair = dna.split('').map(el => {
@@ -39,3 +41,16 @@ function dnaStrand(dna){
 }
 ```
 I could've also used el.includes('A') in the map method for the same result.
+
+2. With ternary operator
+```js
+const dnaStrand = dna => dna.split('').map(el => 
+     el == 'A' ? 'T' :
+     el == 'T' ? 'A' :
+     el == 'C' ? 'G' : 
+     el == 'G' ? 'C' :
+     el
+    
+  ).join('')
+  ```
+  
