@@ -1,7 +1,12 @@
 # 8kyu - 
 
 ## Description
-`// `
+```js
+/*
+
+
+*/
+```
 
 **Link:** 
 
