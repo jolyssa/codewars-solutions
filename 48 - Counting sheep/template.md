@@ -27,4 +27,10 @@ function countSheeps(sheep) {
   let sheepCount = sheep.filter((sheepNum, arr) => sheepNum === true)
   return sheepCount.length
 }
+
+//or something better and less redundant
+function countSheeps(sheep) {
+  return sheep.filter(sheeps => sheeps).length
+}
+//since filter will only return things that are true anyway!
 ```
