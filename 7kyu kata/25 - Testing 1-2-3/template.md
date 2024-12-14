@@ -28,4 +28,4 @@ var number=function(array){
 
 //or, shorter
 const number = array => array.map((ch,ind) => `${ind + 1}: ${ch}`)
-```
+```****
