@@ -1,21 +1,26 @@
-# 8kyu - Will you make it?
+# 8kyu - Hello, Name or World!
 
 ## Description
 ```js
 /*
-You were camping with your friends far away from home, but when it's time to go back, you realize that your fuel is running out and the nearest pump is 50 miles away! You know that on average, your car runs on about 25 miles per gallon. There are 2 gallons left.
+Define a method hello that returns "Hello, Name!" to a given name, or says Hello, World! if name is not given (or passed as an empty String).
 
-Considering these factors, write a function that tells you if it is possible to get to the pump or not.
+Assuming that name is a String and it checks for user typos to return a name with a first capital letter (Xxxx).
 
-Function should return true if it is possible and false if not.
+Examples:
+
+* With `name` = "john"  => return "Hello, John!"
+* With `name` = "aliCE" => return "Hello, Alice!"
+* With `name` not given 
+  or `name` = ""        => return "Hello, World!"
 */
 ```
 
-**Link:** https://www.codewars.com/kata/5861d28f124b35723e00005e/javascript
+**Link:** https://www.codewars.com/kata/57e3f79c9cb119374600046b/javascript
 
 ## My Solution
 ```js
-const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-  return distanceToPump <= mpg *fuelLeft
+function hello(name) {
+  return name ? `Hello, ${name.slice(0,1).toUpperCase() + name.slice(1).toLowerCase()}!` : `Hello, World!`
 }
 ```
