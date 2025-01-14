@@ -23,6 +23,6 @@ Examples (Input -- => Output):
 ## My Solution
 ```js
 function sortGiftCode(code){
-  return code.split('').sort().join('');
+  return code.split('').sort().join('')
 } 
 ```
